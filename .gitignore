@@ -29,6 +29,7 @@ hs_err_pid*
 .project
 .settings/
 .java-version
+.vscode
 
 # Mac
 .DS_Store
