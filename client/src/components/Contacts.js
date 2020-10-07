@@ -24,7 +24,7 @@ export default class Contacts extends Component{
                     <AddContacts/>
                 </div>
                 <div className="row">
-                    {this.state.contacts.map((item)-> (
+                    {this.state.contacts.map((item)=> (
                         <SingleContact key={item.id} item={item}/>
                     ))}
                 </div>
